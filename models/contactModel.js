@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const contactSchema = mongoose.Schema({
     name: {
-        type: stringify,
+        type: String,
         required: [true, "Please enter a name"]
     },
     email: {
